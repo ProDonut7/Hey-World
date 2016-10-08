@@ -58,7 +58,9 @@ a {
   color: #000;/*changed the color*/
   text-align: center;
   background-color:  #f90;
-  background-image: url(http://cheapfeeds.com/wp-content/uploads/2016/07/Burger-king-Double-Cheeseburger.jpg); 
+  background-image: url(https://s.graphiq.com/sites/default/files/530/media/images/Hardees_13_LB_Original_Thickburger_812005_i0.png);
+  repeat:no-repeat;
+  
 /*edited background image*/
 @media screen and (min-width: 64em) {
   .page-header {
