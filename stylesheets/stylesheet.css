@@ -58,9 +58,9 @@ a {
   color: #000;/*changed the color*/
   text-align: center;
   background-color:  #f90;
-  background-image: url(images/batman-tear.0.0.jpg); 
-  background-repeat:no-repeat;
-  background: url(images/batman-tear.0.o.jpg);
+  background-image: url(../batman-tear.0.0.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   
 /*edited background image*/
