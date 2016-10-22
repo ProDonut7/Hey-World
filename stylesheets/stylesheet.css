@@ -52,15 +52,44 @@ a {
     .btn + .btn {
       margin-top: 1rem;
       margin-left: 0; } }
+navbar > navbar-fixed-top{
+  margin:0px;
+  padding:0;
+}
 
+/*navbar background and font colorization*/
+.navbar-inverse{
+  background-color:#069;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+  color: #f00;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+  color: #f00;
+}
+.navbar-inverse .navbar-nav > li > a:active{
+  color: #f00;
+}
 /*changed color and the background color*/
 .page-header {
-  color: #000;/*changed the color*/
+  margin:0px;/*added margin and height*/
+  height:100%;
+ color: #f00;/*changed the color*/
+  padding:0px;
   text-align: center;
-  background-color:  #f90;
+  background: linear-gradient(-90deg, blue, green);
+
+ 
+}
+
+ .jumbotron{
   background-image: url(../batman-tear.0.0_edited.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
+      color:#069;
+      text-shadow: 2px 2px #fff;
+      font-weight:bolder;
 }
   
 /*edited background image*/
