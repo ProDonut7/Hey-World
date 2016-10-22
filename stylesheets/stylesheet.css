@@ -91,7 +91,11 @@ navbar > navbar-fixed-top{
       text-shadow: 2px 2px #fff;
       font-weight:bolder;
 }
-  
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  } 
 /*edited background image*/
 @media screen and (min-width: 64em) {
   .page-header {
